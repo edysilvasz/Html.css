@@ -1,0 +1,118 @@
+*{
+    font-family: 'Archivo', sans-serif;
+    margin: 0 ;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+header{
+    margin: 33px 0 44px 76px;
+}
+.link-hd{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 29px;
+    color: lightslategrey;
+    cursor: pointer;
+    margin: 23px;
+
+}
+.button-hd{
+    background: rebeccapurple;
+    border-radius: 20px;
+    width: 130px;
+    height: 41px;
+    border: none;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 29px;
+    color: whitesmoke;
+    cursor: pointer;
+}
+.img-logo {
+    height: 400px;
+    width: 400px;
+    margin: 125px 0 0 125px;
+    display: inline-block;
+}
+section{
+    display:inline-block;
+    margin-left: 86px;
+}
+h1{
+    font-weight: 900;
+    font-size: 100px;
+    line-height: 122px;
+    color: lightslategrey;
+
+}
+h2{
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 71px;
+    color: lightslategrey;
+}
+.p-sc{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: grey;
+    width: 515px;
+    margin: 0 32px 64px 0;
+
+}.p-sc2{
+     margin-block: auto;
+ }
+.button-main{
+    background: rebeccapurple;
+    border-radius: 30px;
+    width: 239px;
+    height: 64px;
+    border: none;
+    cursor: pointer;
+    filter: drop-shadow(0px 4px 4px rgba(0,0,0,-0.25));
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 29px;
+    color: aliceblue;
+}
+@media (max-width: 390px){
+
+    .img-logo{
+        height: 293px;
+        width: 297px;
+        margin: 47px 2px 25px 56px;
+    }
+    header{
+        display: none;
+    }
+    h1{
+        text-align: center;
+        width: 235px;
+        font-size: 37px;
+        line-height: 30px;
+    }
+    h2{
+
+        /* text-align: center; */
+
+        width: auto;
+
+        /* text-align: center; */
+
+    }
+    .p-sc{
+        width: auto;
+        text-align: center;
+        margin: 21px 112px 85px 0;
+    }
+    .p-sc2{
+        text-align: center;
+        margin-block: auto;
+    }
+    .button-main{
+        display:block;
+        margin: -38px 107px 0 4px;
+    }
+
+}
